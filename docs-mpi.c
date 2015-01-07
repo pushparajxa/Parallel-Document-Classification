@@ -1,20 +1,4 @@
 
-/*
- * docsmpi.c
- * testing version
- *  Created on: Nov 18, 2012
- *      Author: zellist (Tran Anh Phuong)
- *  Contiguous memory allocation (alloc_2d())
- *	Sending the whole chunk with MPI_iSEND()
- *	Freeing memory after use (free_2d())
- *	Output file name = "input file name" + "outx"
- *	Support huge file reading
- *	ubuntu - friendly
- *  time counting
- *
- *	Args: <input file name> <output file name> [cabinet]
- */
-
 
 
 #include <string.h>
